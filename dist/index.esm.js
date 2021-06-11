@@ -338,7 +338,7 @@ var Icon$L = function (props) {
 
 var Icon$K = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/shell/logo.png" })));
+        React.createElement("image", { width: "32", height: "32", href: "/images/basset/logo.png" })));
 };
 
 var Icon$J = function (props) {
@@ -395,7 +395,7 @@ var Icon$G = function (props) {
 
 var Icon$F = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 90, height: 90, href: "/images/shell/9.png" })));
+        React.createElement("image", { width: 90, height: 90, href: "/images/basset/9.png" })));
 };
 
 var Icon$E = function (props) {
@@ -1137,7 +1137,7 @@ var Progress = function (_a) {
 var rotate = keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React.createElement("image", { width: "96", height: "96", href: "/images/shell/9.png" })));
+        React.createElement("image", { width: "96", height: "96", href: "/images/basset/9.png" })));
 };
 var Container$3 = styled.div(templateObject_2$9 || (templateObject_2$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled(SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
@@ -1911,8 +1911,8 @@ var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 268 46" }, props),
         React.createElement("image", { width: "268", height: "46", href: isDark
-                ? "/images/shell/LogoTextNewDark.png"
-                : "/images/shell/LogoTextNewDark.png" })));
+                ? "/images/basset/LogoTextNewDark.png"
+                : "/images/basset/LogoTextNewDark.png" })));
 };
 
 var Icon$k = function (props) {
@@ -2172,22 +2172,22 @@ var links = [
         label: "More",
         icon: "MoreIcon",
         items: [
-            // {
-            //   label: "Voting",
-            //   href: "https://voting.pancakeswap.finance",
-            // },
-            {
-                label: "Github",
-                href: "https://github.com/seashellswap/",
-            },
-            {
-                label: "Docs",
-                href: "https://docs.seashell.finance/",
-            },
-            {
-                label: "Blog",
-                href: "https://seashelldefi.medium.com/",
-            },
+        // {
+        //   label: "Voting",
+        //   href: "https://voting.pancakeswap.finance",
+        // },
+        // {
+        //   label: "Github",
+        //   href: "https://github.com/seashellswap/",
+        // },
+        // {
+        //   label: "Docs",
+        //   href: "https://docs.seashell.finance/",
+        // },
+        // {
+        //   label: "Blog",
+        //   href: "https://seashelldefi.medium.com/",
+        // },
         ],
     },
 ];
@@ -2198,7 +2198,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/seashellfinancechat",
+                href: "https://t.me/bassetfarm",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2240,10 +2240,10 @@ var socials = [
             //   label: "Français",
             //   href: "https://t.me/pancakeswapfr",
             // },
-            {
-                label: "Announcements",
-                href: "https://t.me/seashellfinance",
-            },
+            // {
+            //   label: "Announcements",
+            //   href: "https://t.me/seashellfinance",
+            // },
             // {
             //   label: "Price Bot",
             //   href: "https://t.me/BinanceRocketEGG",
