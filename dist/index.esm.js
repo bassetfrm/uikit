@@ -1888,8 +1888,8 @@ var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
         React.createElement("image", { width: "205", height: "26", href: isDark
-                ? "/images/wow/LogoTextNewDark.png"
-                : "/images/wow/LogoTextNewWhite.png" })));
+                ? "/images/basset/LogoTextNewDark.png"
+                : "/images/basset/LogoTextNewWhite.png" })));
 };
 
 var Icon$k = function (props) {
@@ -2229,7 +2229,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/seashelldefi",
+        href: "https://twitter.com/bassetfarm",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2835,7 +2835,7 @@ var baseColors = {
     primary: "rgb(90, 141, 238)",
     primaryBright: "rgb(90, 141, 238)",
     primaryDark: "rgb(90, 141, 238)",
-    secondary: "#cfcfcf",
+    secondary: "rgb(0, 140, 118)",
     success: "#31D0AA",
     warning: "#FFB237",
 };
