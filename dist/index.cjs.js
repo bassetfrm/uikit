@@ -1854,34 +1854,11 @@ var useModal = function (modal, closeOnOverlayClick) {
 };
 
 var Icon$s = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 512.002 512.002" }, props),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M67.138,191c-17.46-4.595-36.059-0.163-49.58,12.102c-12.165,11.033-18.521,26.76-17.44,43.147\n\t\t\tc1.082,16.387,9.449,31.142,22.958,40.479l181.976,125.805L67.138,191z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M160.736,123.742c-3.363-14.406-3.414-29.058-0.375-43.031c-11.391-2.724-23.369-2.203-34.726,1.657\n\t\t\tc-18.254,6.203-32.444,20.174-38.932,38.328c-6.487,18.155-4.364,37.955,5.825,54.321l128.241,205.998L160.736,123.742z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M22.737,322.966c-1.061,1.359-2.047,2.79-2.937,4.306c-5.985,10.191-6.973,22.358-2.71,33.382s13.179,19.36,24.464,22.873\n\t\t\tl125.124,38.95L22.737,322.966z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M138.581,453.995c-0.939-0.218-1.885-0.326-2.824-0.326c-2.746,0-5.425,0.921-7.633,2.673\n\t\t\tc-2.962,2.351-4.661,5.868-4.661,9.649c0,3.782,1.699,7.299,4.662,9.649c2.963,2.352,6.774,3.208,10.457,2.348l51.41-11.997\n\t\t\tL138.581,453.995z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M309.129,59.353C296.186,43.042,276.821,33.688,256,33.688c-20.821,0-40.187,9.354-53.129,25.665\n\t\t\tc-12.942,16.311-17.652,37.295-12.921,57.572L256,399.983l66.05-283.058C326.782,96.648,322.072,75.664,309.129,59.353z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M494.443,203.102c-13.522-12.264-32.122-16.698-49.581-12.102L306.949,412.534l181.976-125.805\n\t\t\tc13.509-9.338,21.876-24.093,22.958-40.479C512.964,229.862,506.607,214.135,494.443,203.102z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M492.2,327.272c-0.89-1.515-1.876-2.947-2.937-4.306l-143.941,99.51l125.124-38.95\n\t\t\tc11.285-3.513,20.201-11.85,24.464-22.873C499.173,349.63,498.185,337.463,492.2,327.272z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M383.876,456.342c-2.962-2.351-6.774-3.205-10.457-2.347l-51.41,11.996l51.411,11.997\n\t\t\tc3.681,0.859,7.494,0.004,10.456-2.348c2.962-2.351,4.662-5.867,4.662-9.649C388.537,462.211,386.838,458.693,383.876,456.342z" }))),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M425.298,120.696c-6.488-18.154-20.678-32.125-38.932-38.328c-11.357-3.859-23.336-4.381-34.727-1.657\n\t\t\tc3.038,13.973,2.987,28.625-0.374,43.031l-60.033,257.273l128.241-205.998C429.662,158.651,431.785,138.851,425.298,120.696z" })))));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React__default['default'].createElement("path", { d: "M13.7803 2.71967C14.0732 3.01256 14.0732 3.48744 13.7803 3.78033L12.8107 4.75L14.0307 5.96999H20C21.1 5.96999 22 6.86999 22 7.96999V12.73C21.28 12.25 20.43 11.97 19.5 11.97C17.19 11.97 15.3 13.73 15.05 15.97H11.91C11.96 15.64 12 15.31 12 14.97C12 13.43 11.41 12.03 10.46 10.97H11C12.1 10.97 13 10.07 13 8.96999V7.06068L11.75 5.81066L10.7803 6.78033C10.4874 7.07322 10.0126 7.07322 9.71967 6.78033C9.42678 6.48744 9.42678 6.01256 9.71967 5.71967L12.7197 2.71967C13.0126 2.42678 13.4874 2.42678 13.7803 2.71967Z" }),
+        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M11 15C11 17.7614 8.76142 20 6 20C3.23858 20 1 17.7614 1 15C1 12.2386 3.23858 10 6 10C8.76142 10 11 12.2386 11 15ZM9 15C9 16.6569 7.65685 18 6 18C4.34315 18 3 16.6569 3 15C3 13.3431 4.34315 12 6 12C7.65685 12 9 13.3431 9 15Z" }),
+        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19.5 12.97C17.57 12.97 16 14.54 16 16.47C16 18.4 17.57 19.97 19.5 19.97C21.43 19.97 23 18.4 23 16.47C23 14.54 21.43 12.97 19.5 12.97ZM19.5 17.97C18.67 17.97 18 17.3 18 16.47C18 15.64 18.67 14.97 19.5 14.97C20.33 14.97 21 15.64 21 16.47C21 17.3 20.33 17.97 19.5 17.97Z" }),
+        React__default['default'].createElement("path", { d: "M9 8.96997H4C3.45 8.96997 3 8.52997 3 7.96997C3 7.41997 3.45 6.96997 4 6.96997H7C8.1 6.96997 9 7.86997 9 8.96997Z" })));
 };
 
 var Icon$r = function (props) {
@@ -1922,10 +1899,10 @@ var Icon$l = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 268 46" }, props),
-        React__default['default'].createElement("image", { width: "268", height: "46", href: isDark
-                ? "/images/basset/LogoTextNewDark.png"
-                : "/images/basset/LogoTextNewDark.png" })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
+        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark
+                ? "/images/wow/LogoTextNewDark.png"
+                : "/images/wow/LogoTextNewWhite.png" })));
 };
 
 var Icon$k = function (props) {
@@ -1944,10 +1921,9 @@ var Icon$i = function (props) {
 };
 
 var Icon$h = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 511.999 511.999" }, props),
-        React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", null,
-                React__default['default'].createElement("path", { d: "M410.049,74.614C365.21,29.775,306.675,3.601,243.879,0v132.958c55.965,23.044,95.468,78.175,95.468,142.354\n\t\t\tc0,69.527-56.565,126.092-126.092,126.092c-57.276,0-103.873-46.597-103.873-103.873c0-47.475,38.623-86.099,86.099-86.099\n\t\t\tc39.634,0,71.879,32.245,71.879,71.88h-30.003c0-23.091-18.786-41.878-41.877-41.878c-30.932,0-56.097,25.165-56.097,56.097\n\t\t\tc0,40.732,33.139,73.87,73.87,73.87c52.984,0,96.089-43.106,96.089-96.089c0-68.298-55.565-123.862-123.862-123.862\n\t\t\tc-87.44,0-158.577,71.137-158.577,158.577c0,111.367,90.605,201.971,201.971,201.971c68.438,0,132.778-26.651,181.171-75.043\n\t\t\tc48.392-48.392,75.043-112.734,75.043-181.171S458.442,123.007,410.049,74.614z" })))));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React__default['default'].createElement("path", { d: "M7.5 13C7.5 11.8954 8.39543 11 9.5 11H12.5C13.6046 11 14.5 11.8954 14.5 13V15C14.5 16.1046 13.6046 17 12.5 17H9.5C8.39543 17 7.5 16.1046 7.5 15V13Z" }),
+        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M9.5 2C8.39543 2 7.5 2.89543 7.5 4V6.49482C7.5 6.93167 7.2113 7.30895 6.81834 7.49981C5.15004 8.31009 4 10.0207 4 12V17C4 19.2091 5.79086 21 8 21H14C16.2091 21 18 19.2091 18 17V12C18 11.4175 17.9004 10.8583 17.7173 10.3385L17.7892 10.297C19.4786 9.32167 20.0574 7.16153 19.082 5.47221C18.1552 3.86682 16.1534 3.25957 14.5 4.05146V4C14.5 2.89543 13.6046 2 12.5 2H9.5ZM9.5 6.25V4H12.5V6.25H9.5ZM9.22663 7.75C8.89473 8.46917 8.30318 9.00205 7.69211 9.29884C6.68638 9.78731 6 10.8154 6 12V17C6 18.1046 6.89543 19 8 19H14C15.1046 19 16 18.1046 16 17V12C16 10.8154 15.3136 9.78731 14.3079 9.29884C13.6968 9.00205 13.1053 8.46917 12.7734 7.75H9.22663ZM14.5 6.3226V6.49482C14.5 6.93167 14.7887 7.30895 15.1817 7.49981C15.7529 7.77726 16.2634 8.16029 16.6878 8.62352L16.7892 8.56495C17.522 8.1419 17.773 7.20495 17.35 6.47221C16.9346 5.75269 16.0213 5.49542 15.2914 5.89229L14.5 6.3226Z" })));
 };
 
 var Icon$g = function (props) {
@@ -2872,14 +2848,14 @@ var baseColors = {
     primary: "rgb(90, 141, 238)",
     primaryBright: "rgb(90, 141, 238)",
     primaryDark: "rgb(90, 141, 238)",
-    secondary: "rgb(71, 95, 123)",
+    secondary: "#cfcfcf",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "rgb(71, 95, 123)", textDisabled: "#BDC2C4", textSubtle: "rgb(77, 147, 232)", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "rgb(3, 37, 76)", textDisabled: "#BDC2C4", textSubtle: "rgb(77, 147, 232)", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "rgb(90,141,238)", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
