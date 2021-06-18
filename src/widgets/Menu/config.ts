@@ -116,11 +116,10 @@ export const links = [
 export const socials = [
   {
     label: "Telegram",
-    icon: "TelegramIcon",
-    
+    icon: "TelegramIcon",    
     items: [
       {
-        label: "EnglishAnnouncements",
+        label: "Announcements",
         href: "https://t.me/bassetfarm",
       },
       {

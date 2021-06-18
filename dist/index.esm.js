@@ -2173,7 +2173,7 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "EnglishAnnouncements",
+                label: "Announcements",
                 href: "https://t.me/bassetfarm",
             },
             {
