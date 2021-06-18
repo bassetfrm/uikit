@@ -2186,13 +2186,13 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
+                label: "EnglishAnnouncements",
                 href: "https://t.me/bassetfarm",
             },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
+            {
+                label: "English",
+                href: "https://t.me/bassetfarmchat",
+            },
             // {
             //   label: "中文",
             //   href: "https://t.me/goosefinancechinese",
